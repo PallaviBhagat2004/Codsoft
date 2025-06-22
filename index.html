@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Cold Brew Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icon link -->
+     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+     <!-- remix icon -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    </head>
+
+    <!-- goolge font link -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Lemon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+  rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<body>
+     <div class="container">
+        <header>
+        <a href="#logo">
+            <img src="logo (1).png" alt="">
+        </a>
+       <input type="checkbox"  id="check">
+        <ul class="navlist">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+           <button class="nav-btn">Sign In</button>
+            <label for="check">
+                <div class="hamburger open" >
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            </label>
+     </header>
+
+     <!-- section  -->
+      <section class="hero">
+           <div class="hero-text">
+            <h5 data-aos="flip-down" data-aos-duration="1400" data-aos-delay="100">#Coffee for hot days </h5>
+            <h1 data-aos="fade-right" data-aos-duration="1400">- Cold Brew</h1>
+            <p data-aos="fade-left" data-aos-duration="1400" data-aos-delay="200">Boots your productivity and build your mood with a 
+                glass of coffee in the morning. Coffee has a stimulating
+                effect.</p>
+            <div class="main-hero" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="300" >
+            <a href="#" class="btn">Order Now</a>
+            <a href="#" class="price">$16.00 | <span>Regular Price</span></a>
+           </div>
+           </div>
+
+           <div class="hero-img" data-aos="zoom-in" data-aos-duration="1400" >
+            <img src="hero.png" alt="err">
+           </div>
+      </section>
+
+      <div class="icons">
+        <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="400"><i class="ri-facebook-fill"></i></a>
+        <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="500"><i class="ri-youtube-fill"></i></a>
+        <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="600"><i class="ri-twitter-fill"></i></a>
+      </div>
+     </div>
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset:1,
+    });
+  </script>
+</body>
+</html>
